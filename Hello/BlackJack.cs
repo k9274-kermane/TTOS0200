@@ -16,6 +16,14 @@ namespace Hello
             System.Console.Write("Can you beat my dick? Enter any number between 1-21: ");
             //reading and converting 
             theirNumber = System.Convert.ToInt32(System.Console.ReadLine());
+
+            while (theirNumber < 1 || theirNumber > 21)
+            {
+                Console.WriteLine("VITUN JUTKU, ANNA OIKEE NUMERO TAI MUUTA ISRAELIIN!");
+                System.Console.Write("Can you beat my dick? Enter any number between 1-21: ");
+                theirNumber = System.Convert.ToInt32(System.Console.ReadLine());
+            }
+
             //comparing that given umber is valid
             if (theirNumber < 1 || theirNumber > 21)
             {

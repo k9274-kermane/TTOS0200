@@ -13,11 +13,15 @@ namespace Hello
   {
     static void Main(string[] args)
     {
-      //käytä Mainia ohjelmien kutsumiseen, älä kirjoita koodia tänne vaan aliohjelmiin
-      //SayHello();
-      //ShowNames();
-      //staattisen ohjelman kutsuminen toisesta luokasta
-      Hello.Lotto.DrawLotto();
+            //käytä Mainia ohjelmien kutsumiseen, älä kirjoita koodia tänne vaan aliohjelmiin
+            //SayHello();
+            //ShowNames();
+            //staattisen ohjelman kutsuminen toisesta luokasta
+
+            // vittuun naa lotot saatana
+            //Hello.Lotto.DrawLotto();
+
+            Hello.BlackJack.ToraytaTulille();
     }
 
     static void ShowNames()

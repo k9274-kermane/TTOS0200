@@ -2,3 +2,5 @@
 Semester: Autumn 2017
 Group: TTV16S1
 Lecturer: Esa Salmikangas
+
+Jorma: minä :D ebin
